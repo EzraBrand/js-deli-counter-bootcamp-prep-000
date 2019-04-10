@@ -12,11 +12,6 @@ function takeANumber (katzDeliLine, newPerson) {
   return(`Welcome, ${newPerson}. You are number ${katzDeliLine.indexOf(newPerson)+1} in line.`)
 }
 
-function takeANumber1 (katzDeliLine, newPerson) {
-  katzDeliLine.push(newPerson)
-  return(`Welcome, ${newPerson}. You are number ${katzDeliLine.indexOf(newPerson)+1} in line.`)
-}
-
 let number = 1
 function takeANumberIncrementUp () {
   katzDeliLine.push(number)
