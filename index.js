@@ -1,11 +1,27 @@
 //let katzDeliLine = ['Ada', 'Grace', 'Ezra']
 
+function welcomeNumber {
+  if (katzDeliLine.length)
+}
+
 // // #1 takeANumber
 // //unclear if should mutate/destroy the "current line of peopl" = katzDeliLine. set it to mutate.
 //
 function takeANumber (katzDeliLine, newPerson) {
   katzDeliLine.push(newPerson)
   return(`Welcome, ${newPerson}. You are number ${katzDeliLine.indexOf(newPerson)+1} in line.`)
+}
+
+function takeANumber1 (katzDeliLine, newPerson) {
+  katzDeliLine.push(newPerson)
+  return(`Welcome, ${newPerson}. You are number ${katzDeliLine.indexOf(newPerson)+1} in line.`)
+}
+
+let number = 1
+function takeANumberIncrementUp () {
+  katzDeliLine.push(number)
+  return (`Welcome # ${number} on line!`)
+  number ++
 }
 
 // takeANumber(['Ada', 'Grace'],'Ezra')
