@@ -33,7 +33,7 @@ function currentLine(katzDeliLine) {
 let str = 'The line is currently:'
   if (katzDeliLine.length) {
     for (let i=0;i<katzDeliLine.length; i++) {
-   (str += ` ${i+1}. ${katzDeliLine[i]},`)
+   str += ` ${i+1}. ${katzDeliLine[i]},`
     } return str.slice(0,-1)
 
   } else {
